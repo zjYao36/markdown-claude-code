@@ -1,0 +1,19 @@
+# Claude Code
+.claude/
+
+# Skill logs (generated at runtime)
+writing-logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local reference materials (optional)
+papers/
+literature/
