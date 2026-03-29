@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" font-family="monospace">
+  <!-- Dark background -->
+  <rect width="800" height="800" fill="#1a1a2e"/>
+
+  <!-- Decorative elements -->
+  <g opacity="0.1" stroke="#4a9eda" stroke-width="1">
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+  </g>
+
+  <!-- Must-have badge -->
+  <g transform="translate(50, 30)">
+    <rect x="0" y="0" width="100" height="36" fill="#e74c3c" rx="18"/>
+    <text x="50" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">必备工具</text>
+  </g>
+
+  <!-- Main title -->
+  <text x="400" y="180" text-anchor="middle" font-size="44" font-weight="bold" fill="#fff">写文档真的不用那么累！</text>
+  <text x="400" y="230" text-anchor="middle" font-size="22" fill="#4a9eda">一套工作流，AI 写 + GPT-5.4 深度校验</text>
+
+  <!-- Icon -->
+  <g transform="translate(325, 290)">
+    <rect x="0" y="0" width="150" height="170" fill="#16213e" stroke="#4a9eda" stroke-width="3" rx="12"/>
+    <line x1="25" y1="35" x2="125" y2="35" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="25" y1="60" x2="110" y2="60" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="25" y1="85" x2="125" y2="85" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="25" y1="110" x2="90" y2="110" stroke="#4a9eda" stroke-width="2"/>
+    <!-- Verified badge -->
+    <circle cx="130" cy="140" r="25" fill="#4a9eda"/>
+    <text x="130" y="147" text-anchor="middle" font-size="20" fill="#fff">✓</text>
+  </g>
+
+  <!-- Social proof -->
+  <g transform="translate(100, 520)">
+    <text x="300" y="0" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">姐妹们！这是我用过最好的文档写作工具！</text>
+    <rect x="150" y="15" width="300" height="2" fill="#e74c3c"/>
+  </g>
+
+  <!-- Key benefits -->
+  <g transform="translate(80, 560)">
+    <rect x="0" y="0" width="200" height="70" fill="#16213e" stroke="#e74c3c" stroke-width="2" rx="12"/>
+    <text x="100" y="30" text-anchor="middle" font-size="28" fill="#e74c3c">💪</text>
+    <text x="100" y="55" text-anchor="middle" font-size="13" fill="#fff">告别写不出</text>
+  </g>
+
+  <g transform="translate(300, 560)">
+    <rect x="0" y="0" width="200" height="70" fill="#16213e" stroke="#e74c3c" stroke-width="2" rx="12"/>
+    <text x="100" y="30" text-anchor="middle" font-size="28" fill="#e74c3c">🛡️</text>
+    <text x="100" y="55" text-anchor="middle" font-size="13" fill="#fff">质量有保障</text>
+  </g>
+
+  <g transform="translate(520, 560)">
+    <rect x="0" y="0" width="200" height="70" fill="#16213e" stroke="#e74c3c" stroke-width="2" rx="12"/>
+    <text x="100" y="30" text-anchor="middle" font-size="28" fill="#e74c3c">⚡</text>
+    <text x="100" y="55" text-anchor="middle" font-size="13" fill="#fff">效率拉满</text>
+  </g>
+
+  <!-- GitHub -->
+  <text x="400" y="700" text-anchor="middle" font-size="13" fill="#888">GitHub: github.com/zjYao36/markdown-claude-code</text>
+  <rect x="320" y="720" width="160" height="30" fill="#4a9eda" rx="15"/>
+  <text x="400" y="740" text-anchor="middle" font-size="12" fill="#fff">快去试试！</text>
+</svg>
