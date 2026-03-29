@@ -1,0 +1,5 @@
+---
+interface:
+  display_name: "Writing-CC"
+  short_description: "Research-backed document writing with iterative GPT review and rubric scoring"
+  default_prompt: "Use $writing-cc to write a high-quality, research-grounded document on this topic: [describe what document you want, who it's for, and any specific sources or constraints]."
