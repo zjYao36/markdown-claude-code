@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="monospace">
+  <!-- Dark background -->
+  <rect width="800" height="600" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" font-size="28" font-weight="bold" fill="#fff">自动化写作 + GPT-5.4 深度校验</text>
+
+  <!-- Pipeline with validation highlighted -->
+  <g transform="translate(50, 120)">
+    <!-- Step 1: Input -->
+    <rect x="0" y="0" width="120" height="80" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="12"/>
+    <text x="60" y="35" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">输入需求</text>
+    <text x="60" y="55" text-anchor="middle" font-size="11" fill="#888">任何文档类型</text>
+
+    <!-- Arrow -->
+    <text x="140" y="45" font-size="20" fill="#4a9eda">→</text>
+
+    <!-- Step 2: Writing -->
+    <rect x="170" y="0" width="120" height="80" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="12"/>
+    <text x="230" y="35" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">AI 写作</text>
+    <text x="230" y="55" text-anchor="middle" font-size="11" fill="#888">研究+初稿</text>
+
+    <!-- Arrow -->
+    <text x="310" y="45" font-size="20" fill="#4a9eda">→</text>
+
+    <!-- Step 3: Validation (highlighted) -->
+    <rect x="340" y="-15" width="140" height="110" fill="none" stroke="#e74c3c" stroke-width="3" rx="12"/>
+    <rect x="340" y="-15" width="140" height="30" fill="#e74c3c" rx="9"/>
+    <text x="410" y="5" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">GPT-5.4 校验</text>
+
+    <rect x="350" y="10" width="120" height="70" fill="#16213e" stroke="#e74c3c" stroke-width="2" rx="12"/>
+    <text x="410" y="35" text-anchor="middle" font-size="13" fill="#e74c3c" font-weight="bold">深度评审</text>
+    <text x="410" y="55" text-anchor="middle" font-size="11" fill="#fff">结构化评分</text>
+    <text x="410" y="70" text-anchor="middle" font-size="11" fill="#888">8.5分达标</text>
+
+    <!-- Arrow -->
+    <text x="500" y="45" font-size="20" fill="#e74c3c">→</text>
+
+    <!-- Step 4: Revision loop -->
+    <rect x="520" y="0" width="120" height="80" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="12"/>
+    <text x="580" y="35" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">迭代优化</text>
+    <text x="580" y="55" text-anchor="middle" font-size="11" fill="#888">最多5轮</text>
+
+    <!-- Arrow -->
+    <text x="660" y="45" font-size="20" fill="#4a9eda">→</text>
+
+    <!-- Step 5: Output -->
+    <rect x="680" y="0" width="80" height="80" fill="#4a9eda" rx="12"/>
+    <text x="720" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">完成</text>
+  </g>
+
+  <!-- Loop indicator -->
+  <g transform="translate(580, 150)">
+    <path d="M 0 0 Q 30 -30 60 0" fill="none" stroke="#4a9eda" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="30" y="-15" text-anchor="middle" font-size="10" fill="#888">循环</text>
+  </g>
+
+  <!-- Key points -->
+  <g transform="translate(80, 280)">
+    <text x="340" y="0" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">为什么校验这么重要？</text>
+
+    <rect x="0" y="20" width="680" height="150" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="12"/>
+
+    <g transform="translate(40, 60)">
+      <circle cx="10" cy="-5" r="6" fill="#e74c3c"/>
+      <text x="30" y="0" font-size="14" fill="#fff">AI 写的也不一定对，需要人再把关</text>
+    </g>
+    <g transform="translate(340, 60)">
+      <text x="0" y="0" font-size="16" fill="#e74c3c">→</text>
+      <text x="20" y="0" font-size="14" fill="#4a9eda">GPT-5.4 xHigh 深度推理</text>
+    </g>
+
+    <g transform="translate(40, 100)">
+      <circle cx="10" cy="-5" r="6" fill="#e74c3c"/>
+      <text x="30" y="0" font-size="14" fill="#fff">5-7个评估维度，分数量化质量</text>
+    </g>
+    <g transform="translate(340, 100)">
+      <text x="0" y="0" font-size="16" fill="#e74c3c">→</text>
+      <text x="20" y="0" font-size="14" fill="#4a9eda">≥8.5分才算达标</text>
+    </g>
+
+    <g transform="translate(40, 140)">
+      <circle cx="10" cy="-5" r="6" fill="#e74c3c"/>
+      <text x="30" y="0" font-size="14" fill="#fff">所有例子必须有真实来源</text>
+    </g>
+    <g transform="translate(340, 140)">
+      <text x="0" y="0" font-size="16" fill="#e74c3c">→</text>
+      <text x="20" y="0" font-size="14" fill="#4a9eda">杜绝编造，可追溯</text>
+    </g>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(100, 490)">
+    <rect x="0" y="0" width="600" height="60" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="30"/>
+    <text x="300" y="28" text-anchor="middle" font-size="16" fill="#fff">试试看：/writing-cc "你的文档需求"</text>
+    <text x="300" y="48" text-anchor="middle" font-size="12" fill="#888">GitHub: github.com/zjYao36/markdown-claude-code</text>
+  </g>
+</svg>
