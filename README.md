@@ -12,6 +12,8 @@ Writing-CC 是一个 Claude Code 技能（skill），通过自动化流水线生
 
 ### 核心特性
 
+![Writing-CC](./images/xiaohongshu-cover.svg)
+
 - **需求驱动**：先理解用户真正需要什么，再开始写作
 - **标准评估**：基于具体需求定制5-7个可衡量的评估标准
 - **研究支撑**：所有例子和论断必须来源于真实来源（网页搜索、本地文件、论文）
@@ -53,6 +55,8 @@ claude mcp add codex -s user -- codex mcp-server
   -> 重复 Phase 4-5 直到分数 >= 8.5 或达到最大轮次
   -> Phase 6: 生成最终文档
 ```
+
+![Workflow](./images/xiaohongshu-workflow.svg)
 
 ### 输出文件
 

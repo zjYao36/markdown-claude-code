@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" font-family="monospace">
+  <!-- Dark background -->
+  <rect width="800" height="800" fill="#1a1a2e"/>
+
+  <!-- Decorative grid pattern -->
+  <g opacity="0.1" stroke="#4a9eda" stroke-width="1">
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="600" x2="800" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="400" y="180" text-anchor="middle" font-size="52" font-weight="bold" fill="#fff">Writing-CC</text>
+  <text x="400" y="230" text-anchor="middle" font-size="24" fill="#4a9eda">AI 文档写作助手</text>
+
+  <!-- Icon: Document + Sparkle -->
+  <g transform="translate(350, 300)">
+    <!-- Document base -->
+    <rect x="0" y="0" width="100" height="130" fill="#16213e" stroke="#4a9eda" stroke-width="3" rx="8"/>
+    <!-- Lines on document -->
+    <line x1="20" y1="30" x2="80" y2="30" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="20" y1="50" x2="70" y2="50" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="20" y1="70" x2="80" y2="70" stroke="#4a9eda" stroke-width="2"/>
+    <line x1="20" y1="90" x2="60" y2="90" stroke="#4a9eda" stroke-width="2"/>
+    <!-- Sparkle -->
+    <text x="85" y="20" font-size="24">✨</text>
+  </g>
+
+  <!-- Feature badges -->
+  <g transform="translate(100, 480)">
+    <rect x="0" y="0" width="180" height="60" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="30"/>
+    <text x="90" y="35" text-anchor="middle" font-size="18" fill="#fff">自动化写作</text>
+    <text x="90" y="52" text-anchor="middle" font-size="12" fill="#4a9eda">一键生成高质量文档</text>
+  </g>
+
+  <g transform="translate(310, 480)">
+    <rect x="0" y="0" width="180" height="60" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="30"/>
+    <text x="90" y="35" text-anchor="middle" font-size="18" fill="#fff">GPT 审阅</text>
+    <text x="90" y="52" text-anchor="middle" font-size="12" fill="#4a9eda">5轮迭代优化</text>
+  </g>
+
+  <g transform="translate(520, 480)">
+    <rect x="0" y="0" width="180" height="60" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="30"/>
+    <text x="90" y="35" text-anchor="middle" font-size="18" fill="#fff">研究支撑</text>
+    <text x="90" y="52" text-anchor="middle" font-size="12" fill="#4a9eda">真实来源可追溯</text>
+  </g>
+
+  <!-- CTA -->
+  <text x="400" y="680" text-anchor="middle" font-size="20" fill="#fff">适合科研人员 / 研究生</text>
+  <text x="400" y="720" text-anchor="middle" font-size="16" fill="#888">安装：cp -r writing-cc ~/.claude/skills/</text>
+
+  <!-- Bottom decoration -->
+  <rect x="350" y="750" width="100" height="4" fill="#4a9eda" rx="2"/>
+</svg>
