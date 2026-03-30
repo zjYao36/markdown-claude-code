@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" font-family="monospace">
+  <!-- Dark background -->
+  <rect width="800" height="350" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#fff">工作流</text>
+
+  <!-- Pipeline steps -->
+  <g transform="translate(30, 80)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="90" height="55" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="8"/>
+    <text x="45" y="28" text-anchor="middle" font-size="12" fill="#fff">输入需求</text>
+
+    <text x="110" y="32" font-size="16" fill="#4a9eda">→</text>
+
+    <!-- Step 2 -->
+    <rect x="130" y="0" width="90" height="55" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="8"/>
+    <text x="175" y="28" text-anchor="middle" font-size="12" fill="#fff">AI 写作</text>
+
+    <text x="240" y="32" font-size="16" fill="#4a9eda">→</text>
+
+    <!-- Step 3: Validation -->
+    <rect x="260" y="0" width="110" height="55" fill="#16213e" stroke="#e74c3c" stroke-width="2" rx="8"/>
+    <text x="315" y="28" text-anchor="middle" font-size="12" fill="#e74c3c" font-weight="bold">GPT-5.4 校验</text>
+
+    <text x="390" y="32" font-size="16" fill="#4a9eda">→</text>
+
+    <!-- Step 4 -->
+    <rect x="410" y="0" width="90" height="55" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="8"/>
+    <text x="455" y="28" text-anchor="middle" font-size="12" fill="#fff">迭代优化</text>
+
+    <text x="520" y="32" font-size="16" fill="#4a9eda">→</text>
+
+    <!-- Step 5 -->
+    <rect x="540" y="0" width="70" height="55" fill="#4a9eda" rx="8"/>
+    <text x="575" y="28" text-anchor="middle" font-size="12" fill="#fff">完成</text>
+  </g>
+
+  <!-- Loop indicator -->
+  <g transform="translate(470, 75)">
+    <path d="M 0 0 Q 15 -15 30 0" fill="none" stroke="#4a9eda" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="15" y="-8" text-anchor="middle" font-size="8" fill="#888">最多5轮</text>
+  </g>
+
+  <!-- Config info -->
+  <g transform="translate(100, 170)">
+    <rect x="0" y="0" width="600" height="100" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="12"/>
+
+    <g transform="translate(30, 25)">
+      <text x="0" y="0" font-size="13" fill="#fff" font-weight="bold">评分标准：</text>
+      <text x="80" y="0" font-size="13" fill="#888">5-7 个评估维度，分数 ≥8.5 达标</text>
+    </g>
+
+    <g transform="translate(30, 55)">
+      <text x="0" y="0" font-size="13" fill="#fff" font-weight="bold">内容保障：</text>
+      <text x="80" y="0" font-size="13" fill="#888">所有例子必须有真实来源，可追溯</text>
+    </g>
+
+    <g transform="translate(30, 85)">
+      <text x="0" y="0" font-size="13" fill="#fff" font-weight="bold">通用性：</text>
+      <text x="80" y="0" font-size="13" fill="#888">支持任意类型文档编写，最少人工介入</text>
+    </g>
+  </g>
+
+  <!-- CTA -->
+  <g transform="translate(150, 300)">
+    <rect x="0" y="0" width="500" height="40" fill="#16213e" stroke="#4a9eda" stroke-width="2" rx="20"/>
+    <text x="250" y="26" text-anchor="middle" font-size="14" fill="#fff">/writing-cc "你的文档需求"</text>
+  </g>
+</svg>
